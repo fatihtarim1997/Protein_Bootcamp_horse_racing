@@ -2,7 +2,7 @@
 import { watch, computed, ref } from "vue";
 import _ from "lodash";
 
-const props = defineProps(["leaderData", "gameFinished"]);
+const props = defineProps(["leaderData"]);
 
 // Atların aktif olarak sıralanması
 const raceList= computed(() => {

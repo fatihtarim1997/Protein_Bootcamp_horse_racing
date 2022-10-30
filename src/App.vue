@@ -115,7 +115,7 @@ const restartGame = () => {
 const startGame = () => {
   countDownTimer();
   setTimeout(function () {
-    gameTimer = setInterval(horseDistance, 10);
+    gameTimer = setInterval(horseDistance, 30);
   }, 4100);
 };
 </script>
